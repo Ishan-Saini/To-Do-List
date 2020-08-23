@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("/alarm_clock_dial_watch_123806_1920x1080.jpg");
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;
+}
+
+button{
+    margin-left: 15px;
+    width: 125px;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid rgb(165, 165, 165);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    position: relative;  
+    transition: transform 0.2s;
+    box-shadow: 0 0 5px 3px rgb(194, 148, 30);
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+input{
+    height: 40px;
+    width: 300px; 
+    font-size: 18px; 
+    padding-left: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+input::placeholder{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+input:focus{
+    outline: none;
+}
+
+#task-list{
+    list-style-type: none;
+}
+
+ul{
+    padding-top: 20px;
+}
+
+ul li{
+    height: 55px;
+    background-color: white;
+    width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translate(-44%,0);
+    margin-top: 10px;
+    border-radius: 5px;
+    line-height: 55px;
+    text-align: left;
+    padding-left: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(107, 107, 107);
+}
+
+ul li > i{
+    position: absolute;
+    left: 475px;
+    top: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+ul li > i:active{
+    transform: scale(0.70);
+}
+

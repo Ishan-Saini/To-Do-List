@@ -6,6 +6,7 @@
 
 body{
     background: url("https://raw.githubusercontent.com/Ishan-Saini/To-Do-List/master/alarm_clock_dial_watch_123806_1920x1080.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     padding-top: 40px;
